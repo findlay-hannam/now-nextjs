@@ -6,9 +6,7 @@ function Index() {
     <main>
       <Header />
       <section>
-        <Link href="/about">
-          <a>Go to About Me</a>
-        </Link>
+        This is the homepage
       </section>
     </main>
   );
