@@ -1,23 +1,21 @@
 import { Component } from "react";
 import Link from "next/link";
 import Header from "../components/header";
-import Service from '../components/service';
+import ContactForm from '../components/contactForm';
+import GoogleMaps from '../components/googleMaps'
 
-import servicesText from '../resources/services.json';
-
-class Services extends Component {
+class Contact extends Component {
   render() {
     return (
       <main>
         <Header />
         <section>
-          <ul>
-            {servicesText.map(Service)}
-          </ul>
+          <ContactForm />
+          <GoogleMaps />
         </section>
       </main>
     );
   }
 }
 
-export default Services;
+export default Contact;

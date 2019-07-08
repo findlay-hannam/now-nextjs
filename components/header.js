@@ -3,8 +3,9 @@ import Link from "next/link";
 function Header() {
   return (
     <header>
-      <Link href="/about">About Me</Link>
-      <Link href="/services">Services we provide</Link>
+      <Link href="/"><a>Home</a></Link>
+      <Link href="/services"><a>Services we provide</a></Link>
+      <Link href="/contact"><a>Contact us</a></Link>
     </header>
   );
 }
