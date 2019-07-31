@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import sonnets from '../resources/sonnets';
+import styled from 'styled-components';
 
 function Sonnet({
   'sonnet-name': sonnetName,
@@ -8,10 +9,18 @@ function Sonnet({
   return (
     <div>
       <h2>{sonnetName}</h2>
-      {sonnet.map(line => <div>{line}</div>)}
+      {sonnet.map((line, idx) => <div key={idx}>{line}</div>)}
     </div>
   );
 }
+
+const Nav = styled.nav`
+overflow: hidden;
+`;
+
+const SonnetButton = styled.button`
+display: inline;
+`;
 
 export default class Sonnets extends Component {
   constructor() {
@@ -23,7 +32,9 @@ export default class Sonnets extends Component {
   render() {
     return (
       <div>
-        {sonnets.map(({ number }) => <button onClick={() => this.setState({ selectedSonnet: number - 1})}>{number}</button>)}
+        <Nav>
+          {sonnets.map(({ number }) => <SonnetButton key={number} onClick={() => this.setState({ selectedSonnet: number - 1})}>{number}</SonnetButton>)}
+        </Nav>
         <Sonnet {...sonnets[this.state.selectedSonnet]} />
       </div>
     );  

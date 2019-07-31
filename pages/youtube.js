@@ -1,11 +1,12 @@
 import Header from '../components/header';
 import Youtube from '../components/youtube';
+import { Main } from './styles';
 
 export default function Page() {
   return (
-    <main>
+    <Main>
       <Header />
       <Youtube />
-    </main>
+    </Main>
   );
 }

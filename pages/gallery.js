@@ -1,11 +1,12 @@
 import Header from '../components/header';
 import Gallery from '../components/gallery';
+import { Main } from './styles';
 
 export default function Page() {
   return (
-    <main>
+    <Main>
       <Header />
       <Gallery />
-    </main>
+    </Main>
   );
 }

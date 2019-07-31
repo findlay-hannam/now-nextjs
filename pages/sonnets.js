@@ -1,11 +1,12 @@
 import Header from '../components/header';
 import Sonnets from '../components/sonnets';
+import { Main } from './styles';
 
 export default function Page() {
   return (
-    <main>
+    <Main>
       <Header />
       <Sonnets />
-    </main>
+    </Main>
   );
 }
