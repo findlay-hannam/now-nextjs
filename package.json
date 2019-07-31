@@ -9,6 +9,8 @@
     "next": "^8.0.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-spotify-player": "^1.0.4",
+    "react-youtube": "^7.9.0",
     "styled-components": "^4.3.2"
   }
 }

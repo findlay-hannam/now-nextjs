@@ -4,8 +4,11 @@ function Header() {
   return (
     <header>
       <Link href="/"><a>Home</a></Link>
-      <Link href="/services"><a>Services we provide</a></Link>
-      <Link href="/contact"><a>Contact us</a></Link>
+      <Link href="/gallery"><a>Photo gallery</a></Link>
+      <Link href="/spotify"><a>A cool playlist</a></Link>
+      <Link href="/youtube"><a>Your mix playlist</a></Link>
+      <Link href="/recipes"><a>Recipes!</a></Link>
+      <Link href="/sonnets"><a>Old school sonnets</a></Link>
     </header>
   );
 }
