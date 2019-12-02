@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Typography from '@material-ui/core/Typography';
+import Button from '@material-ui/core/Button';
 import sonnets from '../resources/sonnets';
 import styled from 'styled-components';
 
@@ -8,18 +10,16 @@ function Sonnet({
 }) {
   return (
     <div>
-      <h2>{sonnetName}</h2>
-      {sonnet.map((line, idx) => <div key={idx}>{line}</div>)}
+      <Typography>
+        <h2>{sonnetName}</h2>
+        {sonnet.map((line, idx) => <div key={idx}>{line}</div>)}
+      </Typography>
     </div>
   );
 }
 
 const Nav = styled.nav`
 overflow: hidden;
-`;
-
-const SonnetButton = styled.button`
-display: inline;
 `;
 
 export default class Sonnets extends Component {
@@ -32,9 +32,11 @@ export default class Sonnets extends Component {
   render() {
     return (
       <div>
-        <Nav>
-          {sonnets.map(({ number }) => <SonnetButton key={number} onClick={() => this.setState({ selectedSonnet: number - 1})}>{number}</SonnetButton>)}
-        </Nav>
+        <div style={{ overflow: 'hidden' }}>
+          <div style={{maxHeight: 40, overflow: 'auto', whiteSpace: 'nowrap'}}>
+            {sonnets.map(({ number }) => <Button variant="outlined" key={number} onClick={() => this.setState({ selectedSonnet: number - 1})}>{number}</Button>)}
+          </div>
+        </div>
         <Sonnet {...sonnets[this.state.selectedSonnet]} />
       </div>
     );  

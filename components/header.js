@@ -1,4 +1,5 @@
 import Link from "next/link";
+import MUILink from '@material-ui/core/Link'
 import styled from 'styled-components';
 
 const Nav = styled.nav`
@@ -10,20 +11,15 @@ border: 1px dashed black;
 padding: 1px 4px;
 `;
 
-const A = styled.a`
-color: blue;
-cursor: pointer;
-`;
-
 function Header() {
   return (
     <Nav>
-      <Link href="/"><A>Home</A></Link>
-      <Link href="/gallery"><A>Photo gallery</A></Link>
-      <Link href="/spotify"><A>A cool playlist</A></Link>
-      <Link href="/youtube"><A>Your mix playlist</A></Link>
-      <Link href="/recipes"><A>Recipes!</A></Link>
-      <Link href="/sonnets"><A>Old school sonnets</A></Link>
+      <Link href="/"><MUILink href="/">Home</MUILink></Link>
+      <Link href="/gallery"><MUILink href="/gallery">Photo gallery</MUILink></Link>
+      <Link href="/spotify"><MUILink href="/spotify">A cool playlist</MUILink></Link>
+      <Link href="/youtube"><MUILink href="/youtube">Your mix playlist</MUILink></Link>
+      <Link href="/recipes"><MUILink href="/recipes">Recipes!</MUILink></Link>
+      <Link href="/sonnets"><MUILink href="/sonnets">Old school sonnets</MUILink></Link>
     </Nav>
   );
 }

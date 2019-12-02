@@ -1,6 +1,6 @@
 [
   {
-    "name": "Chocolate Cake",
+    "name": "Team Fatie's Chocolate Cake",
     "ingredients": [
       "200g dark chocolate",
       "200g butter",
@@ -70,5 +70,92 @@
     ],
     "method": ["Whisk the buttermilk, melted butter and vanilla together in a large bowl. Separate the egg and whisk the yolk into the buttermilk mixture. Whisk the egg white in a clean bowl until it forms stiff peaks – this will keep your waffles light and fluffy.","Weigh all the other dry ingredients into a bowl. Whisk in the wet ingredients to create a smooth batter then carefully but decisively fold through the egg white – don’t worry if you are left with a few small lumps. Cover with cling film and leave the batter to sit for 30 mins, if you have time.","Lightly oil then heat your waffle maker (or see the tip below). Heat the oven to low, so you can keep each waffle warm while the next one cooks. Pour enough batter for one waffle (about a quarter) into the waffle maker, close the lid and cook until the waffle is golden brown on both sides and will come away from the maker easily, about 2 mins. Repeat with the remaining batter, then top with whatever you fancy."],
     "photo": "https://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2018/07/belgian-waffle.jpg?itok=B4P-s0XS"
+  },
+  {
+    "name": "Bakewell Tart",
+    "ingredients": [
+      "500g shortcrust pastry",
+      "300g soft butter",
+      "300g caster sugar",
+      "3 eggs",
+      "300g ground almonds",
+      "50g flour",
+      "Jam",
+      "Flaked almonds",
+      "icing sugar"
+    ],
+    "method": [
+      "Line tart tin with pastry. Prick with fork",
+      "Whisk butter and sugar. Add eggs 1 by 1, then floud and almonds",
+      "Cook pastry for about 10 minutes, till light brown at edges. Spoon jam in and spread out",
+      "Spoon almond mix over top and sprinkle with flaked almonds. Cook until golden brown",
+      "Mix icing sugar with water and drizzle over tart"
+    ],
+    "photo": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/bakewell_tart_90600_16x9.jpg"
+  },
+  {
+    "name": "Banana Loaf",
+    "ingredients": [
+      "140g butter (softened)",
+      "140g caster sugar",
+      "2 large eggs - beaten",
+      "140g self-raising flour",
+      "1tsp baking powder",
+      "2 very ripe bananas - mashed",
+      "50g icing sugar",
+      "Chocolate chips (optional)"
+    ],
+    "method": [
+      "Heat oven to 160 (fan oven)",
+      "Line 2lb loaf tin with baking paper",
+      "Cream butter and sugar until light and fluffy, then slowly add beaten eggs with a little bit of flour",
+      "Fold in the remaining flour, then baking powder, mashed banana and chocolate chips",
+      "Add to tin and bake for 30 minutes, until skewer comes out clean"
+    ],
+    "photo": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/bananabread_85720_16x9.jpg"
+  },
+  {
+    "name": "Lemon Syrup Loaf Cake",
+    "ingredients": [
+      "125g unsalted butter",
+      "175g caster sugar",
+      "2 large eggs",
+      "Zest fo 1 lemon",
+      "175g self-raising flour",
+      "Pinch of salt",
+      "4 tablespoons milk",
+      "Juice of 1.5 lemons",
+      "100g icing sugar"
+    ],
+    "method": [
+      "Preheat the oven to 180C. Butter and line a 450g loaf tin.",
+      "Cream together the butter and sufar, and add the eggs and lemon zest, beating them in well.",
+      "Add the flour and salt, folding in gently but thoroughly, and then the milk. Spoon into the prepared loaf tin and put in the oven for 45 minutes, or until golden, risen and skewer comes out clean.",
+      "While the cake is cooking, get on with the syrup: put the lemon juice and sugar into a small saucepan and heat gently so that the sugar dissolves.",
+      "As soon as the cake is out of the oven, puncture the top of the loaf all over. Pour over the syrup. Don't remove from the tin until completely cold."
+    ],
+    "photo": "https://postmediamontrealgazette2.files.wordpress.com/2013/02/lemon-syrup-loaf-cake.jpg"
+  },
+  {
+    "name": "Dense Chocolate Loaf Cake",
+    "ingredients": [
+      "225g soft unsalted butter",
+      "375g dark muscovado sugar",
+      "2 large eggs, beaten",
+      "1 teaspoon vanilla extract",
+      "100g best dark chocolate, melted",
+      "200g plain flour",
+      "1 teaspoon bicarbonate of soda",
+      "250ml boiling water"
+    ],
+    "method": [
+      "Preheat the oven to 190C. Grease and line a 23*13*7cm loaf tin with parchment paper",
+      "Cream the butter and sugar, either with a wooden spoon or with an electric hand-held mixer. Add the eggs and vanilla, beating well.",
+      "Fold in the melted, but slightly cooled chocolate, taking care to blend well but being careful not to overbeat. You want the ingredients combined, not a light, airy mass.",
+      "Gently add the flour, bicarbonate of soda and boiling water until you have a smooth and fairly liquid batter.",
+      "Pour into the lined loaf tin and bake for 30 minutes. Turn the oven down to 170C and continue to cook for another 15 minutes. The cake will still be a bit squidgy, so a skewer won't come out completely clean.",
+      "Place the loaf tin on a rack, and leave to get completely cold before turning it out."
+    ],
+    "photo": "https://www.thespruceeats.com/thmb/NZnGbUwZSsgC6q8fmJbfFghLrKo=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/chocolate-loaf-cake-with-chocolate-glaze-3053332-hero-02-5c58844ec9e77c00016b4059.jpg"
   }
 ]
