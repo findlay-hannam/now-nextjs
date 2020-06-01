@@ -20,6 +20,8 @@ function Header() {
       <Link href="/youtube"><MUILink href="/youtube">Your mix playlist</MUILink></Link>
       <Link href="/recipes"><MUILink href="/recipes">Recipes!</MUILink></Link>
       <Link href="/sonnets"><MUILink href="/sonnets">Old school sonnets</MUILink></Link>
+      <Link href="/sonnets"><MUILink href="/names/boys">Boys Names</MUILink></Link>
+      <Link href="/sonnets"><MUILink href="/names/girls">Girls Names</MUILink></Link>
     </Nav>
   );
 }
