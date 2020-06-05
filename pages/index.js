@@ -2,7 +2,7 @@ import Link from "next/link";
 import Youtube from 'react-youtube';
 import Typography from '@material-ui/core/Typography';
 import Header from "../components/header";
-import { Main } from './styles';
+import { Main } from '../components/styles';
 
 const videoOpts = {
   height: '390',
