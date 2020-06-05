@@ -1,9 +1,8 @@
-import { Main, Ol, Li } from '../styles';
+import { Main } from '../../components/styles';
 import Header from '../../components/header';
 import Names from '../../components/names';
 import firstNames from '../../resources/names/girls/first.json';
 import middleNames from '../../resources/names/girls/middle.json';
-import { Typography } from '@material-ui/core';
 
 const first = firstNames.sort();
 const middle = [...firstNames, ...middleNames].sort();
