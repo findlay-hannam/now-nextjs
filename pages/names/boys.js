@@ -9,7 +9,7 @@ const middle = [...firstNames, ...middleNames].sort();
 const list = [];
 first.forEach(firstName => {
   middle.forEach(middleName => {
-    if (firstName !== middleName) {
+    if (firstName[0] !== middleName[0]) {
       list.push(`${firstName} ${middleName} Hannam`);
     }
   });
