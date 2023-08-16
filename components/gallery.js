@@ -8,5 +8,6 @@ const formattedImages = images
   }));
 
 export default function Gallery() {
-  return <ImageGallery images={formattedImages} />;
+  return "The gallery is currently under construction :(";
+  // return <ImageGallery images={formattedImages} />;
 }
