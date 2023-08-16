@@ -1,5 +1,5 @@
 import Link from "next/link";
-import MUILink from '@mui/material/Link'
+// import MUILink from '@mui/material/Link'
 import styled from 'styled-components';
 
 const Nav = styled.nav`
@@ -10,6 +10,8 @@ margin-bottom: 16px;
 border: 1px dashed black;
 padding: 1px 4px;
 `;
+
+function MUILink (a) { return a.children };
 
 function Header() {
   return (
