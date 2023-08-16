@@ -1,4 +1,5 @@
-import { List, ListItem } from '@material-ui/core';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/List';
 
 export default function NamesList({ list }) {
   return (

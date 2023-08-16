@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Youtube from 'react-youtube';
-import Typography from '@material-ui/core/Typography';
+import Typography from '@mui/material/Typography';
 import Header from "../components/header";
 import { Main } from '../components/styles';
 

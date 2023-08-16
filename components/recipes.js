@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import recipes from '../resources/recipes';
-import { List, ListItem, Typography, Button } from '@material-ui/core';
+import { List, ListItem, Typography, Button } from '@mui/material';
 
 function Recipe({
   name,

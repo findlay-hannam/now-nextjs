@@ -1,5 +1,5 @@
 import Link from "next/link";
-import MUILink from '@material-ui/core/Link'
+import MUILink from '@mui/material/Link'
 import styled from 'styled-components';
 
 const Nav = styled.nav`
