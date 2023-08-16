@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Youtube from 'react-youtube';
 import Typography from '@mui/material/Typography';
 import Header from "../components/header";
